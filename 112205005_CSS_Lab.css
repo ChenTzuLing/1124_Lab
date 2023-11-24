@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(214, 214, 214);
+    color: rgb(0, 0, 0);
+    font-family: "Arial, sans-serif"
+}
+
+h1 {
+    font-family: "Georgia, serif"
+}
+
+ul {
+    position: "relative";
+    top: "2em";
+    left: "2em";
+    width: "10em"
+}
+
+.navbar {
+    background: rgb(184, 181, 181);
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+}
+
+.colorful {
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    color: white;
+    padding: 14px 16px;
+}
+
+@media all {
+    h1 {
+        color: blue;
+    }
+}
+
+@media print {
+    body {
+        background-color: rgb(247, 165, 165);
+        color: rgb(0, 0, 0)
+    }
+
+    h1 {
+        color: black;
+    }
+}
